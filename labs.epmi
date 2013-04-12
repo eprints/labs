@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' id='http://eprints-devel.localdomain:8080/id/epm/labs' uuid='urn:uuid:5a9d6e5e-e2ad-52b9-a794-99f1d873b2c0'>
+  <epmid>labs</epmid>
+  <uri>http://eprints-devel.localdomain:8080/id/epm/labs</uri>
+  <documents>
+    <document>
+      <format>other</format>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>Brody</family>
+        <given>Tim</given>
+      </name>
+      <id>tdb2@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>Labs/Testing Skin</title>
+  <description>This extension adds a &apos;labs&apos; skin to EPrints (similar to Google Labs). An overlay is added that indicates to users that this is a labs service along with links to explanatory text. robots.txt is modified to exclude all indexing of the site - you don&apos;t want your &apos;labs&apos; system to get in the way of your live site.</description>
+</epm>
