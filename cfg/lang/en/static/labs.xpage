@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xpage:page xmlns="http://www.w3.org/1999/xhtml" xmlns:xpage="http://eprints.org/ep3/xpage" xmlns:epc="http://eprints.org/ep3/control">
+<xpage:title>Welcome to <epc:phrase ref="archive_name" /> Labs</xpage:title>
+<xpage:body>
+<p>This server is made available to test new features and bug fixes for <epc:phrase ref="archive_name" />.</p>
+
+<p>Any material uploaded to this server is likely to be lost but may still be public until the next time this server is reset.</p>
+
+<p>If you encounter any problems or would like to know more please contact the server administrator at <a href="mailto:{$config{adminemail}}"><epc:print expr="$config{adminemail}" /></a>.</p>
+
+<!--
+
+Add some information here about what is being tested e.g. a list of installed bazaar extensions.
+
+-->
+</xpage:body>
+</xpage:page>

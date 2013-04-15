@@ -1,0 +1,26 @@
+#ep_labs_overlay {
+	position: fixed;
+	top: 0px;
+	right: 200px;
+	background-color: #ffcc00;
+	border-color: #ff9900;
+	border-width: 1px;
+	border-style: none solid solid solid;
+	border-bottom-right-radius: 25px 25px;
+	border-bottom-left-radius: 25px 25px;
+	padding: 5px 20px;
+}
+
+#ep_labs_message {
+	background: url('images/warning.png') no-repeat;
+	padding-left: 50px;
+}
+
+#ep_labs_close {
+	cursor: pointer;
+	text-align: right;
+}
+
+#ep_labs_close:hover {
+	text-decoration: underline;
+}
