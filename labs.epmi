@@ -6,6 +6,13 @@
     <document>
       <files>
         <file>
+          <filename>epm/labs/cfg/cfg.d/x_labs.pl</filename>
+          <mime_type>text/plain</mime_type>
+          <hash>af62c6aa0028764de98f8ff23099f853</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1021</filesize>
+        </file>
+        <file>
           <filename>epm/labs/cfg/lang/en/phrases/labs.xml</filename>
           <mime_type>application/xml</mime_type>
           <hash>72c1ad51ec4ec192f2148b4b3d5ede16</hash>
@@ -68,7 +75,7 @@
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <creators>
     <item>
       <name>
@@ -79,6 +86,8 @@
     </item>
   </creators>
   <title>Labs/Testing Skin</title>
-  <description>This extension adds a &apos;labs&apos; skin to EPrints (similar to Google Labs). An overlay is added that indicates to users that this is a labs service along with links to explanatory text. robots.txt is modified to exclude all indexing of the site - you don&apos;t want your &apos;labs&apos; system to get in the way of your live site.</description>
+  <description>This extension adds a &apos;labs&apos; skin to EPrints (similar to Google Labs). An overlay is added that indicates to users that this is a labs service along with links to explanatory text. robots.txt is modified to exclude all indexing of the site - you don&apos;t want your &apos;labs&apos; system to get in the way of your live site.
+
+A new user authentication is added that allows you to restrict who can log into the repository. Drop a passwd-style file into archives/[archiveid/var/ - see cfg.d/x_labs.pl for details.</description>
   <icon>images/epm/labs.png</icon>
 </epm>
