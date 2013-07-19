@@ -60,7 +60,7 @@ GetOptions(\%opt,
 	'help',
 ) or pod2usage();
 
-pod2usage(2) if $opt{help};
+pod2usage(1) if $opt{help};
 
 my $noise = $opt{verbose} - $opt{quiet};
 
